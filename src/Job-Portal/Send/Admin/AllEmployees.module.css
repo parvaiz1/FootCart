@@ -1,0 +1,71 @@
+
+
+.h3{
+    color: blue;
+    margin-left: 4%;
+}
+.ul {
+    display: flex;
+    margin: 0px;
+    margin-left: -30px;
+}
+
+.li {
+    display: inline-block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width:8%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+.Name{
+    width:12%;
+}
+.phoneNumber{
+    width: 11%;
+}
+.CompanyName{
+    width:11%
+}
+
+.CompanyAddress {
+    width: 12%;
+}
+.Date {
+    width: 7%
+}
+.CompanyWebsite{
+    width: 23%;
+}
+.DeleteAction{
+    width:10%
+}
+.DeleteButton {
+    /* background-color: rgb(40, 4, 99); */
+    background-color: red;
+    border:1px solid red;
+    color: white;
+    width:62px;
+    height: 22px;
+    font-weight: bold;
+
+}
+.Approval{
+    width:10%
+}
+.Approved{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width:82px;
+    border: 1px solid green;
+    height: 23px;
+}
+.Approve{
+    background-color: rgb(40, 4, 99);
+    height: 23px;
+    color: white;
+    font-weight: bold;
+    width:78px;
+    border: 1px solid green;
+}

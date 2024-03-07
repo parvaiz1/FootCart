@@ -1,0 +1,172 @@
+
+.Uiwarpper {
+    margin-left: -20px;
+}
+.h3{
+    color: blue;
+    margin-left: 4%;
+}
+.ul {
+    display: flex;
+    margin: 0px;
+}
+
+.li {
+    display: inline-block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 8%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+
+.liDescription {
+    width: 20%;
+
+}
+
+.Jtitle {
+    width: 9%
+}
+
+.Package {
+    width: 5%
+}
+.Pdate{
+    width:6.5%
+}
+.experiance {
+    width: 3%;
+}
+
+.Location {
+    width: 8%;
+}
+
+.JobType {
+    width: 7%
+}
+
+.Qualif {
+    width: 6%
+}
+.DeleteAction{
+    width:70px
+}
+
+.DeleteButton {
+    /* background-color: rgb(40, 4, 99); */
+    background-color: red;
+    border:1px solid red;
+    color: white;
+    width:82%;
+    height: 25px;
+    font-weight: bold;
+
+}
+.Status{
+    width:10%;
+}
+/* .....Mobile View... */
+
+#JobCardWrapper {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    /* background-color: rgb(204, 103, 103); */
+    border-radius: 10px;
+    /* margin-left: 40px;     */
+    width: 85%;
+
+}
+
+.JobCard {
+    /* display: flex; */
+    /* background-color: aqua;    */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    /* height: 250px; */
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #999999;
+    padding-bottom: 6px;
+}
+.logo{
+    width:30px;
+    height:20px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+.companyName{
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.jobLocation{
+    margin-left: 50px;
+
+}
+.jobTitle{
+font-size: medium;
+    margin-left: 9px;
+    margin-top: -10px;
+}
+
+h4{
+    margin-left: 9px;
+    margin-top: -10px;
+
+}
+.ApplyPackage {
+    display: flex;
+    margin-top: -5px;
+    margin-left: 18px;
+    background-color: rgb(241,248,234);
+    /* background-color: rgb(225, 209, 250); */
+    border: 1px solid rgb(40, 4, 99);
+    height: 50px;
+    width:75%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.jobDescriptionHeading{
+    margin-left: 9px;
+    margin-top: -10px;
+
+
+}
+.jobDescription{
+    margin-top: -15px;
+    margin-left: 9px;
+    width:96%
+}
+
+.MobileDelete {
+    border: 1px solid red;
+    background-color: red;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    width:33%;
+    /* padding-left: 10px; */
+    height: 29px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding-left: 8%;
+}
+.MobileResult{
+    margin-left: 9px;
+    margin-top: 10px;
+
+}
+.MobileStatus{
+    margin-left: 9px;
+    margin-top: -15px;
+
+}

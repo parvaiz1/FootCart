@@ -1,0 +1,97 @@
+.inputs{
+    border : 1px solid rgb(175,179,188);
+    margin : 20px;
+    width : 300px;
+    display: block;
+    margin-left: 35%;
+    border-radius:8px;
+    height: 35px;
+    }
+    #inputWrapper{
+        /* background-color: red; */
+        margin: 20px;
+    }
+    .error{
+        color: red;
+        margin-left: 280px;    }
+        .hrwrapper{
+           margin-left: 300px;
+            width: 50%;
+        }
+        
+        
+        
+        .line{
+            width : 200px;
+           
+        }
+        .topsideError{
+            color: red;
+            margin-left: 450px;
+        }
+        .fieldMissing{
+            color: red;
+            margin-left: 450px;
+        }
+
+   
+    .button{
+        border-radius:8px;
+        /* background-color:rgb(66,133,244); */
+        background-color: rgb(40, 4, 99);
+        width : 310px;   
+        height: 40px;
+        margin : 20px;
+      
+        margin-left: 35%;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size:medium;
+        text-align:center;
+            }
+           
+    .signUpWrapper{
+        display: flex;
+        /* background-color: rgb(66,133,244); */
+        background-color: white;
+        width: 310px;
+        margin-left: 35.4%;
+        padding: 1px;    
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .notAccount{
+        /* background-color: red; */
+        width: 20%;
+        display: flex;
+        margin-left: 35.5%;
+    }
+    .signUp{
+        margin-left:10px;        
+        color: black;
+        font-weight: 550;
+        font-size:medium;           
+    }
+    .google{       
+        padding: 10px;
+        height: 27px;
+        border-radius: 4px;
+    }
+    .OR{
+        margin-left: 46%;
+        margin-top: -16px;
+    }
+    .signUpw{      
+        margin-top: 15px;
+    }
+    .both{
+        display: flex;
+        margin-left: 30px;
+
+    }
+    .topuperror{
+        margin-left: 36%;
+        color: red;
+    }
+   

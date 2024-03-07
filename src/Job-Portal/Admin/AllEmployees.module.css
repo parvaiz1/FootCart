@@ -1,0 +1,158 @@
+
+
+.searchBoth{
+    margin-left: 4%;
+    margin-top: 15px;
+
+    display: flex;
+}
+.p{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 5%;
+    opacity: 0.8;
+
+
+}
+.inputboxsearch{
+    display: inline-flex;
+    height : 35px;
+    margin-top: 13px;
+    margin-left: 2%;
+    width: 55%;
+    border-radius:5px;
+    border : 1.5px solid rgb(9, 247, 247);
+}
+
+.h3{
+    color: blue;
+    margin-left: 4%;
+}
+.ul {
+    display: flex;
+    margin: 0px;
+    margin-left: -30px;
+}
+
+.li {
+    display: inline-block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width:8%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+.Name{
+    width:12%;
+}
+.phoneNumber{
+    width: 11%;
+}
+.CompanyName{
+    width:11%
+}
+
+.CompanyAddress {
+    width: 12%;
+}
+.Date {
+    width: 7%
+}
+.CompanyWebsite{
+    width: 23%;
+}
+.DeleteAction{
+    width:10%
+}
+.DeleteButton {
+    /* background-color: rgb(40, 4, 99); */
+    background-color: red;
+    border:1px solid red;
+    color: white;
+    width:62px;
+    height: 22px;
+    font-weight: bold;
+
+}
+.Approval{
+    width:10%
+}
+.Approved{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width:82px;
+    border: 1px solid green;
+    height: 23px;
+}
+.Approve{
+    background-color: rgb(40, 4, 99);
+    height: 23px;
+    color: white;
+    font-weight: bold;
+    width:78px;
+    border: 1px solid green;
+}
+
+
+/* .....For Mobile....... */
+
+#JobCardWrapper {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    /* background-color: rgb(204, 103, 103); */
+    border-radius: 10px;
+    /* margin-left: 40px;     */
+    width: 85%;
+
+}
+
+.JobCard {
+    /* display: flex; */
+    /* background-color: aqua;    */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    /* height: 250px; */
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #999999;
+    padding-bottom: 6px;
+}
+
+.Mobname{
+    margin-left: 18px;
+    margin-top: 10px;
+    width:95%;
+font-size: medium;
+
+}
+.MobNoticePeriod{
+    margin-left: 18px;
+    width:95%
+
+}
+.Mobage{
+    margin-left: 18px;
+    width:95%
+
+}
+.MobQualification{
+    margin-left: 18px;
+    width:95%
+}
+
+h4{
+    margin-left: 18px;
+    margin-top: -10px;
+    width:95%;   
+    white-space: wrap; 
+}
+.MobSkills{
+    /* margin-top: -15px; */
+    /* margin-left: 18px; */
+    width:89%;
+}

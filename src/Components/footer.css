@@ -1,0 +1,91 @@
+.footerWraper{
+    background-color: black;
+}
+
+.footer{
+    color:white;
+    margin-left: 8.5%;
+}
+.top{
+    align-items: center;
+    display: flex;
+}
+.AddYour{
+    margin: 0;
+}
+.footCart{
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0;
+    width:100%;
+}
+i{
+    margin-left: 15px;
+    text-decoration: none;
+}
+i:hover{    
+    transform: scale(1.05) ;
+}
+
+.brands{
+    font-size:xx-large;
+    margin-left: 25%;
+    /* background-color: blue; */
+}
+
+.Bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Bottom h4{
+    color:white;
+    /* font-size: 1.3rm; */
+    font-weight: 700;
+}
+.Bottom div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin-right: 10%;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    white-space: nowrap;
+}
+@media screen and (max-width:850px){
+    .Bottom div{
+    margin-right: 12%;
+    /* background-color: aqua; */
+    width: 100px
+
+    }
+    .brands{
+        font-size:xx-large;
+        margin-left: 15%;
+        /* background-color: blue; */
+    }
+
+}
+@media screen and (max-width:550px){
+    .top{
+        align-items: center;
+        display: block;
+    }
+    .AddYour{
+        margin: 0;
+        width:200%
+    }
+    .brands{
+        font-size:xx-large;
+        margin-left: -15px;
+        /* background-color: blue; */
+    }
+    .footCart{
+        margin: 0;
+        width:200%;
+    }
+    
+}
+
+
+

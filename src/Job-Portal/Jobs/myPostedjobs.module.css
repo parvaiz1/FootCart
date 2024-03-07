@@ -1,0 +1,271 @@
+
+
+
+/* ...................................Li......................... */
+
+.searchBoth {
+    margin-left: 20%;
+    display: flex;
+}
+
+.p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.inputboxsearch {
+    display: inline-flex;
+
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 45%;
+    border-radius: 5px;
+    border: 1.5px solid rgb(9, 247, 247);
+}
+
+.seeMore {
+    color: blue;
+}
+
+.Uiwarpper {
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.ul {
+    display: flex;
+    margin: 0px;
+}
+
+.li {
+    display: inline-block;
+
+    padding: 0.5%;
+    width: 8%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+
+.liDescription {
+    width: 20%;
+    text-align: left;
+
+
+}
+
+.Jtitle {
+    width: 8.5%;
+}
+
+.Package {
+    width: 6.5%
+}
+.Pdate{
+    width:6%
+}
+.experiance {
+    width: 3%;
+}
+
+.Location {
+    width: 7.4%;
+}
+.Action{
+    width:115px;
+}
+
+.Acbuttons {
+    height: 28px;
+    display: flex;
+  }
+.Abutton {
+    border: 1px solid;
+    font-weight: 550;
+    font-size: small;
+}
+.update {
+    background-color: rgb(40, 4, 99);
+    color: white;
+    width:230%;
+}
+.delete {
+    background-color: rgb(252, 56, 56);
+    color: white;
+    margin-left: 4%;
+    width:230%;
+}
+
+
+.NuApplied{
+    width:8%
+}
+.viewButton{
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    width:40%;
+    border:1px solid rgb(40, 4, 99);
+}
+
+.text {
+    font-weight: 550;
+}
+
+/* For mobile View  */
+
+#JobCardWrapper {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    /* background-color: rgb(204, 103, 103); */
+    border-radius: 10px;
+    /* margin-left: 40px;     */
+    width: 90%;
+
+}
+
+.JobCard {
+    /* display: flex; */
+    /* background-color: aqua;    */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    /* height: 250px; */
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #999999;
+    padding-bottom: 6px;
+}
+.logo{
+    width:30px;
+    height:20px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.companyName{
+    margin-left: 8px;
+    margin-top: 6px;
+    font-weight:500;
+}
+.jobLocation{
+    margin-left: 12px;
+    font-weight:550;
+    margin-top: -100px;
+    font-size:small;
+}
+
+.jobTitle{
+    font-weight:500;
+    margin-left: 12px;
+    font-size: medium;
+}
+.NoOfJobSeekersApplied{
+    /* font-weight:500; */
+    margin-left: 12px;
+    font-size: small;
+    font-weight:550;
+
+}
+
+.jobtypeAndDate{
+    /* font-weight:400; */
+    margin-left: 12px;
+    font-size: small;
+    margin-bottom: 12px;
+
+
+}
+.QualificationAndExperiance{
+    font-weight:400;
+    margin-left: 12px;
+    font-size: small;
+
+
+}
+.jobDescriptionHeading{
+    margin-left: 12px;
+    font-weight:500;
+    margin-top: 5px;
+
+    /* margin-top: 50px; */
+
+}
+.jobDescription{
+    margin-top: -15px;
+    margin-left: 12px;
+    width:93%;
+    font-size: medium;
+}
+.MobileviewButton{
+    border: 1px solid rgb(40, 4, 99);
+    background-color:  rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    width:19%;
+    height: 27px;
+    margin-left: 7%;
+    border-radius: 5px;
+
+}
+.MobileZeroViewButton{
+    border-radius: 5px;
+
+    border: 1px solid rgb(40, 4, 99);
+    background-color:  rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    width:13%;
+    height: 27px;
+    margin-left: 7%;
+}
+.ApplyPackage {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: rgb(241,248,234);
+    /* background-color: rgb(225, 209, 250); */
+    border: 1px solid rgb(40, 4, 99);
+    height: 50px;
+    width:75%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.salaryRange{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 22px;
+}
+
+.MobileAcbuttons {
+    height: 28px;
+    display: flex;
+    width:60%;
+    margin-top:20px;
+    margin-left: 12%;
+
+  }
+.MobileDelete {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width:70%;
+    height: 29px;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+.MobileUpdate{
+    border: 1px solid rgb(40, 4, 99);
+    background-color:  rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    width:70%;
+    height: 29px;
+    margin-left: 8%;
+    border-radius: 5px;
+
+}

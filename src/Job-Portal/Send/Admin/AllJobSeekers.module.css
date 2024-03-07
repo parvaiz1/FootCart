@@ -1,0 +1,65 @@
+.ul{
+    display: flex;
+    margin: 0;
+    margin-left: -35px;
+
+}
+
+.li{
+    display: inline-block;
+    border: 1px solid aqua;
+    width:11%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.name{
+    width:12%
+}
+.phoneNumber{
+    width:12%
+    }
+
+.age{
+    width:6%
+}
+.Aadhar{
+    width:14%
+}
+.Qualification{
+    width:7%   
+}
+.Skills{
+    width:14%
+}
+.Approval{
+    width:11%
+}
+.Action{
+    width:8%
+}
+.DeleteButton{
+    border : 1px solid red;
+    background-color: red;
+    color: white;
+    width:58px;
+    font-weight: bold;
+    height: 24px;
+
+}
+.Approved{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width:82px;
+    border: 1px solid green;
+    height: 23px;
+}
+.Approve{
+    background-color: rgb(40, 4, 99);
+    height: 23px;
+    color: white;
+    font-weight: bold;
+    width:78px;
+    border: 1px solid green;
+}

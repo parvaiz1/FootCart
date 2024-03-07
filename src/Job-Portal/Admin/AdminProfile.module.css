@@ -1,0 +1,46 @@
+
+.Rli{
+    display: block;
+    border: 1px solid aqua;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    width:550px;
+    border-right: none;
+    height: 22.33px;
+
+}
+.Lui{
+    margin-left: -40px;
+    /* width:100px */
+}
+.Lli{
+    border: 1px solid aqua;
+    display: block;
+    height: 27.68px;
+    width:140px;
+    text-align:center;
+     padding-top: 2%;
+    padding-bottom:2%; 
+}
+.AdminEditWrapper{
+    margin-left: 2%;
+    margin-top: 20px;
+
+}
+.AdminEdit{
+    margin-top: 10px;
+margin-left: -0%;
+}
+.inputbox{
+display: inline;
+
+    height: 80px ;
+    width : 70%;
+     border-radius: 5px;
+     border: 1px solid black;
+     font-size: medium;    
+     /* background-color: aqua; */
+     margin-top: -10px;
+
+    }

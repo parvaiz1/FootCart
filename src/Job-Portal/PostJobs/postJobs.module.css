@@ -1,0 +1,93 @@
+
+.searchButton{
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    border:1px solid rgb(40, 4, 99);
+    margin-left: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    width:80px;
+    margin-top: 50px;
+    display: inline;
+
+}
+.logo{
+    height:49px;
+    width:49px;
+    display: block;
+    margin-left: 75%;
+    margin-top: -45px;
+
+}
+.postJobPageWrapper{   
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hint{
+    opacity:0.5;
+}
+.postJobWrapper{
+    /* margin-left: 7%; */
+    margin-right: 7%;  
+    /* background-color: blue; */
+    
+}
+
+.inputbox{
+    height: 40px ;
+    width : 100%;
+     border-radius: 5px;
+     border: 1px solid black;
+     font-size: medium;    
+     /* background-color: aqua; */
+     margin-top: -10px;
+
+    }
+    .Otherinputbox{
+        height: 40px ;
+    width : 100%;
+     border-radius: 5px;
+     border: 1px solid black;
+     font-size: medium;    
+     /* background-color: aqua; */
+     margin-top: -0px;
+    }
+    .jobHeadline{
+        margin-top: 15px;
+    margin-left: -0%; 
+    /* background-color: blue;  */
+
+    }
+    .label{
+background-color: blue;
+margin-top: -100px;
+
+    }
+.button{
+    border-radius:8px;
+    background-color: rgb(40, 4, 99);
+    width : 101%;   
+    height: 40px;
+    border: 1px solid rgb(40, 4, 99) ;
+    margin-top: 30px; 
+    cursor: pointer;
+    font-weight: 500;
+    font-size:medium;
+    text-align:center;
+    color: white;
+    margin-top: 30px;
+
+        }
+        .successmessage{
+            color: rgb(85, 156, 85);
+            font-style: italic;
+            }
+        .errormessage{
+            color : red;
+            font-style: italic;
+        }
+        
+      

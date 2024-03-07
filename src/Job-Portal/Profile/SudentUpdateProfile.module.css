@@ -1,0 +1,279 @@
+.EntireFullWrapper {
+    background-color: rgb(240, 240, 241);
+    padding-top: 2%;
+}
+
+.EntireWrapper {
+    margin-left: 15%;  
+    width: 70%;
+    border: 1px solid rgb(40, 4, 99);
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    background-color: white;
+}
+@media (max-width:650px){
+    .EntireWrapper {
+        margin-left: 9%;  
+        width: 80%;
+        border: 1px solid rgb(40, 4, 99);
+        /* border: 1px solid blue; */
+        border-radius: 10px;
+    }
+}
+
+.imageViewWrapper {
+    /* background-color: blue; */
+    /* padding-bottom: 8%; */
+    display: flex;
+
+}
+
+.loader {
+    margin-top: -110px;
+    /* background-color: aqua; */
+    width: 20%;
+    margin-left: 40%;
+}
+
+.imageView {
+    height: 150px;
+    width: 150px;
+    border-radius: 180%;
+    /* background-color: red; */
+    /* margin-top:2%; */
+}
+
+.fileView {
+    height: 150px;
+    margin-left: -150px;
+    width: 150px;
+    border-radius: 180%;
+    /* background-color: blue; */
+}
+
+.addfileDiconwrapper {
+    margin-left: -150px;
+    width: 120px;
+   
+    /* background-color: rgb(255, 157, 127); */
+}
+
+.addfileD {
+    height: 150px;
+    width: 150px;
+    
+    border-radius: 180%;
+    /* background-color: rgb(168, 168, 224); */
+
+}
+
+.addfile::-webkit-file-upload-button {
+    display: none;
+
+}
+
+.addfile {
+    color: transparent;
+}
+
+/* .addfile::before {
+    content: url('../img/icons8-upload-48\ \(1\).png');    
+
+  }  */
+.saveDelete {
+    display: flex;
+    /* background-color: rgb(35, 206, 206); */
+    margin-top: 20px;
+}
+
+.saveImage {
+    height: 30px;
+    /* margin: 2%; */
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    margin-left: 2%;
+
+}
+
+.DeleteImage {
+    height: 30px;
+    /* margin: 2%; */
+    margin-left: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color : red
+    /* background-color: red; */
+    
+    /* font-weight: bold; */
+}
+
+.inputWrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.inputName {
+    width: 48%;
+    /* margin-left: 0%; */
+    padding-top: 20px;
+}
+
+h4 {
+    /* width: 0%; */
+    font-weight: 550;
+    font-size: small;
+    white-space: nowrap;
+}
+
+.input {
+    width: 80%;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 4, 99);
+    margin-top: -100px;
+    margin-left: 18px;
+
+}
+
+.Save {
+    height: 30px;
+    margin: 2%;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    margin-left: 2.8%;
+
+}
+
+.cancel {
+    height: 30px;
+    margin: 2%;
+    margin-left: 70%;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* ....... Employee update profile for image upload.....*/
+
+
+.EmpimageViewWrapper {
+    /* background-color: blue; */
+    display: flex;
+    width:95%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+
+}
+
+.Emploader {
+    margin-top: -80px;
+    /* background-color: aqua; */
+    width: 20%;
+    margin-left: 40%;
+}
+.EmpimageView {
+    height: 100px;
+    width: 110px;
+    /* background-color: red; */
+    border:none;
+}
+.EmpfileView {
+    height: 100px;
+    margin-left: 0%;
+    width: 110px;
+    border:none;
+    /* background-color: blue; */
+    /* border-radius: 180%; */
+}
+.EmpaddfileDiconwrapper {
+    margin-left: -110px;
+    width: 15%;
+    /* background-color: rgb(255, 157, 127); */
+}
+.EmpaddfileD {
+    height: 100px;
+    width: 110px;
+    border-radius: 180%;
+    /* background-color: rgb(168, 168, 224); */
+}
+.addfile::-webkit-file-upload-button {
+    display: none;
+}
+.addfile {
+    color: transparent;
+    /* background-color: aquamarine; */
+    border:none
+}
+.EmpDeleteImage{
+    height: 25px;
+    margin-left: 25px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color : red    
+}
+.EmpsaveImage {
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    margin-left: 2%;
+    
+}
+
+/* ........ for  Mobile view...... */
+
+
+.MobileName{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Mobileinput{
+    width: 87%;
+     height: 32px;
+   border-radius: 5px;
+     border: 1px solid rgb(40, 4, 99);
+    margin-left: 18px; 
+    margin-bottom: 5px;    
+}
+
+.Mobilecancel{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 5px;
+
+}
+.MobileSave {
+    margin-bottom: 5px;
+
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+
+}
+
