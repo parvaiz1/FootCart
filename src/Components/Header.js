@@ -20,7 +20,7 @@ function Header() {
     <>
       <Navbar style={{ backgroundColor: "black", color: "white", height: "60px", width:"100%", position:"sticky", top:0}}>
         <Container>
-          <NavLink to="/">
+          <NavLink to="/" style={{ marginLeft:"5%"}}>
           <h3 className='text-light'>E-Commerce</h3>
           </NavLink>
 
