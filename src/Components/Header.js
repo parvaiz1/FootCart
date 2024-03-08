@@ -24,7 +24,7 @@ function Header() {
           <h3 className='text-light'>E-Commerce</h3>
           </NavLink>
 
-            <NavLink to="/cart"  style={{color:"white"}}>
+            <NavLink to="/cart"  style={{color:"white", marginRight:"5%"}}>
           <div id="ex4">
               <span className='p1 fa-stack fa-2x has-badge' data-count={cartData.length}>
                 <i class="fa-solid fa-cart-shopping"></i>
